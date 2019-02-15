@@ -6,9 +6,9 @@
 
 부모 컴포넌트는 자식 컴포넌트가 전달한 상태를 이벤트 바인딩을 통해 접수한다.
 
-````angular
+> 자식 컴포넌트에서 부모 컴포넌트로 상태 전달
 
-
+````java
 <!-- 부모 템플릿과 컴포넌트 클래스 -->
 <child (myEvent)="myEventHandler($event)"></child>
 ...
@@ -28,5 +28,4 @@ handleClick(state) {
     this.myEvent.emit(state);
 }
 
-```
--자식 컴포넌트에서 부모 컴포넌트로 상태 전달-
+````
