@@ -1,0 +1,1 @@
+"# framework-component-output-decorator" 
