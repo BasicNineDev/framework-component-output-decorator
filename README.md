@@ -8,7 +8,7 @@
 
 > 자식 컴포넌트에서 부모 컴포넌트로 상태 전달
 
-````java
+````html
 <!-- 부모 템플릿과 컴포넌트 클래스 -->
 <child (myEvent)="myEventHandler($event)"></child>
 ...
